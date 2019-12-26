@@ -148,7 +148,7 @@ origin  https://github.com/ssh6189/TIL.git (fetch)
 origin  https://github.com/ssh6189/TIL.git (push)
 ```
 
-## ## 2.Push - 원격저장소 업로드
+## ## 2.push - 원격저장소 업로드
 
 ```bash
 $ git push origin master
@@ -168,4 +168,24 @@ $ git push origin master
 
 `status`, `log`, `remote - v`
 
- 
+ ## 3.pull
+
+```bash
+$ git pull origin master
+```
+
+원격 저장소의 변경 사항을 받아온다.
+
+
+
+## 4. `clone`
+
+```bash
+$ git clone 깃허브url
+```
+
+
+
+원격 저장소를 복제한다.
+
+주의! init 명령어와 같이 기억하자!
